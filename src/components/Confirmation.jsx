@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleCheck, faUserLarge, faVideo, faEarthAsia, faCalendar, faMicrosoft, faGoogle } from '@fortawesome/free-solid-svg-icons';
+import { faCircleCheck, faUserLarge, faVideo, faEarthAsia, faCalendar } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
 
 export const Confirmation = () => {
@@ -14,7 +14,7 @@ export const Confirmation = () => {
             <div className="relative container m-auto px-3">
                 <div className="m-auto md:w-10/12 ">
                     <div className="p-2 md:p-8">
-                        <div className="md:pr-4 md:w-max rounded-lg bg-white dark:bg-gray-800 shadow-xl  flex items-center justify-center mr-5 ml-3 mb-5">
+                        <div className="md:pr-4 md:w-max rounded-lg bg-white  shadow-xl  flex items-center justify-center mr-5 ml-3 mb-5">
                             <div className='flex items-cente justify-center h-full' >
                                 <div >
                                     <div className='flex items-center justify-center '>
@@ -61,12 +61,12 @@ export const Confirmation = () => {
 
                                         <div className=' mt-2 md:mt-3'>
                                             <button className='border-2 w-64 rounded-s-full rounded-e-full border-slate-500 px-2 py-2 mr-5 mb-3 md:px-3 md:py-3 md:mr-8 font-bold  bottom-5 right-0 w-42 text-slate-500 '>
-                                                {/* <FontAwesomeIcon icon={faGoogle} /> */}
+
                                                 Sign up with Google
                                             </button>
 
                                             <button className='border-2 w-64 rounded-s-full rounded-e-full border-slate-500 px-3 py-3 mr-8 font-bold  bottom-5 right-0 w-42  text-slate-500'>
-                                                {/* <FontAwesomeIcon icon={faMicrosoft} /> */}
+
                                                 Sign up with Microsoft
                                             </button>
                                         </div>

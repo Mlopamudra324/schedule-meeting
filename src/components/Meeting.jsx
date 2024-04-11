@@ -40,8 +40,8 @@ const availableTimeslots = [
 });
 
 function Meeting(props) {
-    const [start_date, set_start_date] = useState(new Date());
-    const [info_selected_active, set_info_selected_active] = useState(props);
+    const [, set_start_date] = useState(new Date());
+    const [, set_info_selected_active] = useState(props);
 
 
     return (

@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-// import { MobileResponsive } from "./components/MobileResponsive";
 
 import { Home } from "./pages/Home";
 import { Date } from "./components/Date";
@@ -18,7 +17,7 @@ function App() {
       <Route path="Details" element={<Details />} />
       <Route path="confirmation" element={<Confirmation />} />
     </Routes>
-    // <MobileResponsive />
+
 
   );
 }

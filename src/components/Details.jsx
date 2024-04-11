@@ -35,7 +35,7 @@ export const Details = () => {
         setChecked(updatedList);
     };
 
-    const [openModal, setOpenModal] = useState(false)
+    const [, setOpenModal] = useState(false)
 
     return (
         <div className=' fixed bg-gray-200 grid place-items-center backdrop-blur-sm top-0 left-0 z-50 w-full inset-0 h-modal h-full justify-center items-center overflow-y-auto '>
@@ -47,7 +47,7 @@ export const Details = () => {
             <div className='relative container m-auto px-6'>
                 <div className='m-auto md:w-9/12 snap-y'>
                     <div className="p-8 md:p-8">
-                        <div className='rounded-lg bg-white dark:bg-gray-800  flex items-center justify-center  '>
+                        <div className='rounded-lg bg-white  flex items-center justify-center  '>
                             <div className='md:flex relative rounded-sm '>
 
                                 <div className=' sm:1/3 md:w-1/3 bg-white sm:border-r-2  md:border-r-2 ' >
