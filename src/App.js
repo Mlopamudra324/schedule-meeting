@@ -1,11 +1,8 @@
 import { Routes, Route } from "react-router-dom";
-
 import { Home } from "./pages/Home";
 import { Date } from "./components/Date";
 import { Details } from './components/Details';
 import { Confirmation } from './components/Confirmation';
-
-
 
 
 function App() {

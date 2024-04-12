@@ -57,21 +57,23 @@ export const Date = () => {
                                             <Link to="/Details" className='bg-teal-400 text-white border-none px-3 py-3 mr-8 font-bold absolute  right-0 w-42 rounded' onClick={() => setOpenModal(true)} >Next</Link>
                                         </div>
 
-                                        <div className='flex flex-col  mb-5'>
+                                        <div className='flex flex-col mb-5'>
 
-                                            <div className='flex items-center justify-center py-3 '>
-                                                <div>
-                                                    <FontAwesomeIcon className="mx-5" icon={faEarthAmericas} />
-                                                </div>
-                                                <div>
-                                                    <span>UK, Ireland, Lisbon Time (16:50)</span>
-                                                    <select name="option" >
-                                                        <option className='text-lg font-bold  md:ml-5'>Time Zone</option>
-                                                        <option >option2</option>
-                                                        <option>option3</option>
-                                                        <option >option4</option>
+                                            <div className='flex items-center justify-center'>
 
-                                                    </select>
+                                                <div >
+                                                    <h1 className='text-lg font-bold  md:ml-5'>Time Zone</h1>
+                                                    < div className='ml-3 md:ml-5'>
+                                                        <FontAwesomeIcon className="ml-5" icon={faEarthAmericas} />
+
+                                                        <select name="option" >
+                                                            <option > UK, Ireland, Lisbon Time (16:50)</option>
+                                                            <option >option2</option>
+                                                            <option>option3</option>
+                                                            <option >option4</option>
+
+                                                        </select>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
